@@ -68,8 +68,4 @@ Grafik gibi ileri düzey analizler içermese de sade yapısı sayesinde kullanı
 
 ---
 
-## 📂 Projeyi Çalıştırmak İçin
 
-1. Bu depoyu klonlayın:
-   ```bash
-   git clone https://github.com/kullanici-adi/butcemate.git
