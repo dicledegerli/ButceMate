@@ -1,71 +1,65 @@
 # BütçeMate – Kişisel Gelir Gider Takip Uygulaması
 
-## 📌 Proje Tanımı
+Proje Başlığı:
+BütçeMate – Kişisel Gelir Gider Takip Uygulaması
 
-Birçok kişi günlük harcamalarını ve gelirlerini etkin şekilde takip edememektedir. Geleneksel yöntemlerin sürdürülemezliği ve mevcut dijital araçların karmaşıklığı, kullanıcıların bütçelerini verimli yönetmesini zorlaştırmaktadır. **BütçeMate**, sade, kullanıcı dostu ve erişilebilir bir mobil çözüm olarak bu problemi ortadan kaldırmayı hedeflemektedir.
+Problemin Tanımı:
+Birçok birey gelir ve giderlerini düzenli olarak takip edemediğinden dolayı bütçe planlamasında zorlanmaktadır. Geleneksel yöntemler (kâğıt kalem gibi) sürdürülebilir olmadığından ve bazı dijital araçlar karmaşık arayüzlere sahip olduğundan kullanıcılar bu süreci verimli şekilde yürütememektedir. BütçeMate, sade arayüzü ve temel işlevselliğiyle bu soruna pratik bir çözüm sunmayı amaçlamaktadır.
 
----
+Hedef Kitle:
+Üniversite öğrencileri
 
-## 🎯 Hedef Kitle
+Yeni mezunlar ve iş hayatına yeni atılmış bireyler
 
-- Öğrenciler  
-- Yeni iş hayatına atılan bireyler  
-- Ev bütçesini yöneten kişiler  
-- Kendi işinin gelir-giderini manuel tutan küçük esnaflar  
+Ev ekonomisini yöneten kullanıcılar
 
----
+Küçük esnaf ve girişimciler
 
-## ⚙️ Uygulama Özellikleri
+Uygulama Özellikleri:
+Firebase ile kullanıcı kayıt/giriş sistemi
 
-- 📆 Günlük / Haftalık / Aylık gelir ve gider ekleme  
-- 📂 Gider kategorileri oluşturma ve düzenleme (Yiyecek, Ulaşım, Eğlence vb.)  
-- ☁️ Firebase ile otomatik veri yedekleme  
-- 📤 PDF veya Excel formatında dışa aktarma  
-- 🔐 Parola / PIN koruması ile güvenlik  
+Para birimi seçme (TL, USD, EUR)
 
----
+Gelir ve gider ekleme
 
-## 👤 Kullanıcı Senaryosu
+Harcamaların listelenmesi
 
-> Ahmet, aylık maaşını ve harcamalarını daha iyi takip etmek istemektedir.
+Harcama kayıtlarını PDF olarak dışa aktarma
 
-1. Uygulamayı indirip basit bir kayıt işlemi yapar.  
-2. Aylık maaşını gelir olarak kaydeder.  
-3. Günlük harcamalarını kategorilere göre eklemeye başlar (örneğin: 50 TL – Yiyecek).  
-4. Ay sonunda, uygulama Ahmet’e hangi kategorilerde ne kadar harcadığını gösteren grafiklerle birlikte toplam tasarrufunu raporlar.  
-5. Ahmet, bu verileri PDF olarak dışa aktararak e-posta yoluyla kendine gönderir.  
+Basit ve kullanıcı dostu arayüz (Material Design kullanımı)
 
----
+Kullanıcı Senaryosu:
+Ayşe, aylık harcamalarını düzenli takip etmek istemektedir.
 
-## 🛠️ Teknolojik Gereksinimler
+Uygulamayı indirerek hesap oluşturur.
 
-- **Android Studio**  
-- **Firebase**  
-  - Kimlik Doğrulama  
-  - Gerçek Zamanlı Veritabanı  
-  - Veri Yedekleme  
-- **Material Design** (kullanıcı dostu arayüz için)  
-- **PDF/Excel export kütüphaneleri**  
+Giriş yaptıktan sonra kullandığı para birimini seçer (örneğin: TL).
 
----
+Günlük harcamalarını kolayca uygulamaya ekler (örnek: 100 TL – Ulaşım).
 
-## 🗓️ Tahmini Zaman Çizelgesi
+Harcamalarını uygulama içinden takip eder.
 
-| Hafta | Görevler |
-|-------|----------|
-| 1. Hafta | Proje planlama, taslak arayüz çizimleri |
-| 2-3. Hafta | Firebase bağlantısı, kullanıcı kayıt/giriş sistemi |
-| 4-5. Hafta | Gelir-gider ekleme ve kategorilendirme ekranlarının oluşturulması |
-| 6. Hafta | Harcama limiti/bildirim sistemi ve güvenlik özellikleri |
-| 7. Hafta | Dışa aktarma (PDF/Excel), testler ve hata ayıklama |
-| 8. Hafta | UI iyileştirme, son testler, yayınlama hazırlıkları |
+Ay sonunda harcama listesini PDF formatında dışa aktararak yedekler.
 
----
+Teknolojik Gereksinimler:
+Android Studio
 
-## ✅ Sonuç ve Katkı
+Firebase (Authentication, Realtime Database)
 
-**BütçeMate**, kullanıcıların finansal farkındalık kazanmasını sağlar ve harcama alışkanlıklarını iyileştirir. Özellikle genç bireyler için dijital bütçe yönetimi alışkanlığını teşvik eder. Basit arayüzü ve güçlü özellikleriyle mobil marketlerde günlük kullanım için ideal bir araç olarak yer almayı hedefler.
+Material Design bileşenleri
 
----
+PDF oluşturma kütüphanesi
 
----
+Tahmini Zaman Çizelgesi:
+Hafta: Proje planlaması, temel arayüz tasarımları
+
+Hafta: Firebase bağlantısı, kullanıcı kayıt ve giriş ekranı
+
+Hafta: Para birimi seçimi ve harcama ekleme ekranı
+
+Hafta: Harcamaların görüntülenmesi ve PDF'e dışa aktarma işlemi
+
+Hafta: Testler, hata ayıklama, son düzenlemeler
+
+Sonuç ve Katkı:
+BütçeMate, temel finansal takibi dijital ortama taşıyarak bireylerin harcamalarını düzenli bir şekilde izlemesine olanak tanır. Grafik gibi ileri düzey analizler sunmasa da sade yapısı sayesinde kullanıcıların bütçe farkındalığını artırır. Özellikle genç ve dijitalleşmeye açık kullanıcılar için alışkanlık kazandırıcı bir araç olma potansiyeline sahiptir.
