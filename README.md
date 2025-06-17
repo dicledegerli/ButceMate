@@ -1,4 +1,4 @@
-# 📱 BütçeMate – Kişisel Gelir Gider Takip Uygulaması
+# 📱 Budget Mate – Kişisel Gelir Gider Takip Uygulaması
 
 ## 📌 Problemin Tanımı
 
